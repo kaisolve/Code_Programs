@@ -1,0 +1,38 @@
+/* design all page */
+* {
+  box-sizing: border-box;
+}
+
+/* design the body */
+body {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* design the background */
+.background {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(5px);
+}
+
+/* design the loading text */
+.load {
+  font-size: 50px;
+  color: blueviolet;
+}
+
+/* 
+z-index is for html overlapping
+clac() is a function to get value for width and height
+vh is like px
+*/

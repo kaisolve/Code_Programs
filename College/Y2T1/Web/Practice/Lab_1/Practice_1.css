@@ -1,0 +1,49 @@
+/* #first-dev 
+/* { */
+/* p {
+  font-size: large;
+} */
+#first .firo {
+  color: blueviolet;
+}
+#first {
+  background-color: rgb(104, 174, 151);
+  wclassth: 400px;
+  height: 200px;
+  display: inline-block;
+}
+
+.second {
+  background-color: aquamarine;
+  color: red;
+  border-bottom: 10px solclass red;
+  display: inline-block;
+}
+
+.third {
+  background-color: aquamarine;
+  color: rgb(27, 203, 62);
+  border-bottom: 10px solclass rgb(198, 171, 52);
+
+  display: inline-block;
+  height: fit-content;
+}
+
+span {
+  background-color: red;
+  font-size: 30px;
+  wclassth: 400px;
+  height: 200px;
+}
+
+#first,
+.second,
+.third {
+  padding: 11xp;
+  margin-left: 100xp;
+  margin-bottom: 50px;
+  display: inline-block;
+  min-wclassth: 10px;
+  max-wclassth: 100px;
+  overflow: auto;
+}

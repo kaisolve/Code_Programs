@@ -1,0 +1,105 @@
+body{
+    background-image: image-set("minimal-mojave-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* left */
+
+.leftBox{
+    color: white;
+    display: inline-block;
+    height: fit-content;
+    position: absolute;
+    width: 700px;
+    top: 100px;
+    left: 200px;
+}
+.content{
+    background-color:rgba(0, 0, 0, 0.59);
+    padding: 30px 50px 20px 50px;
+    transition: 0.5s;
+}
+.content:hover{
+    background: #e91e63; 
+}
+
+h1{
+    font-size: 80px;
+    margin-top: -5px;
+}
+
+.content > p{
+font-size: 18px;
+margin-top: -60px;
+}
+
+/* right */
+
+.events{
+    float: right;
+    background: rgb(31, 28, 83,0.5);
+    height: fit-content;
+    width: 50%;
+}
+
+li{
+    display: block;
+    background-color: white;
+    width: 920px;
+    height: 280px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+/* important */
+.time{
+    background-color: rgba(7, 6, 6, 0.5);
+    display: inline-block;
+    width: 220px;
+    height: px;
+    position: relative;
+    bottom: 30px;
+    /* padding: 20px; */
+    transition: background-color 0.5s;
+}
+
+.time:hover{
+    background-color: #e91e63;
+    
+}
+
+.details{
+    display: inline-block;
+    /* background-color: whitesmoke; */
+    width: 400px;
+    height: 240px;
+    margin-left: 20px;
+}
+
+h2{
+font-size: 70px;
+color: white;
+text-align: center;
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+span{
+    font-size: 40px;
+    position: relative;
+    top: -40px;
+}
+
+a{
+    font-size: 17px;
+    border: 1px black solid;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: #e91e63;
+    color: white;
+}

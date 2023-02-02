@@ -1,0 +1,46 @@
+body {
+  background-image: url("Task_2.jpg");
+}
+
+.form {
+  background-color: #ffffff;
+  border: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 150px;
+  margin-left: 150px;
+  padding: 20px;
+  vertical-align: middle;
+  border-color: #000000;
+  box-shadow: 0 0 0 7px #000000;
+  border-radius: 6px;
+}
+.title1 {
+  font-size: 20px;
+  color: rgb(102, 102, 243);
+}
+.title2 {
+  color: rgb(24, 12, 29);
+}
+.list {
+  background-color: rgb(27, 32, 121);
+  margin: 3px;
+  width: 20%;
+}
+.title3 {
+  font-size: 20px;
+  color: rgb(102, 102, 243);
+}
+.title4 {
+  color: rgb(221, 156, 245);
+}
+.list1 {
+  color: red;
+}
+.lis {
+  background-color: rgb(228, 229, 249);
+  margin: 3px;
+  width: 20%;
+}
