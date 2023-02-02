@@ -16,7 +16,7 @@ class Solution:
         dummy=ListNode()
         cur=dummy
         carry=0
-        
+         
         while l1 or l2 or carry:
             v1=v1.val if v1 else 0
             v2=v2.val if v2 else 0
